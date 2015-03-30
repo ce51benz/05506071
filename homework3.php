@@ -26,9 +26,9 @@ $total = mysql_fetch_array($total);
 echo "<tr><th>Total<td colspan=4 align=right bgcolor=yellow>$total[0]</tr>";
 echo "</table><hr size=2 noshade>";
 }
-
-echo "<b>Name:</b>$row[1]";
-echo " <b>Address:</b>$row[3]";
+echo "<b>Cust No.:</b>$row[0] ";
+echo "<b>Name:</b>$row[1] ";
+echo " <b>Address:</b>$row[3] ";
 echo " <b>Sex:</b>";
 if($row[2] == "M")echo "Male";
 else echo "Female";
